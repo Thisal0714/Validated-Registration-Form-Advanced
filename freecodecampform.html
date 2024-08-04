@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="shortcut icon" type="x-icon" href="https://pic.onlinewebfonts.com/thumbnails/icons_348030.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="Script.js"></script>
+</head>
+<body>
+    <!-- <h1>Registration Form with Validation<br>-Demo-</h1> -->
+    
+    <div class="container">
+        <form id="survey-form" action="/">
+            <h1 id="title">Let's Get Started.</h1>
+            <br>
+            <div class="input">
+                <label for="username"
+                id="name-label">Username</label>
+                <input id="name" name="username" type="text" placeholder="Username" required>
+                <div class="error"></div>
+            </div>
+            <br>
+            <div class="input">
+                <label for="email" id="email-label">Email</label>
+                <input id="email" name="email" type="email" placeholder="Email"required>
+                <div class="error"></div>
+            </div>
+            <br>
+            <div class="input">
+
+<label for="Age"
+id="number-label" >Age</label>
+              <input id="number"name="age" type="number" min=05 max=100 placeholder="Enter Your Age"> 
+              <br><br>
+<label for="gender"
+id="gender" >Gender</label>
+<select id="dropdown" required>
+    <option selected>-Select Your Gender-</option>
+    <option>Male</option>
+    <option>Female</option>
+    <option>Rather not Say</option>
+</select>              
+<br><br> 
+
+<label for="password">Password</label>
+                <input id="password"name="password" type="password" placeholder="Enter the Password" required>
+                <div class="error"></div>
+            </div>
+            <br>
+            <div class="input">
+                <label for="password2">Password again</label>
+                <input id="password2"name="password2" type="password" placeholder="Re-Enter the Password" required>
+                <div class="error"></div>
+            </div>
+            <br>
+            <label>Your Role</label><br><br>
+            <div class="role">
+                <input type="radio" value="student" name="student" > Student</input>
+                <input type="radio" value="teacher" name="student" class="teacher"> Teacher</input>
+        </div>
+            <br>
+            <br><br><input class="check" type="checkbox" value="check1" required> I agree to the terms and conditions.</input>
+            <br><br><input class="check" type="checkbox" value="value2" required> Subscribe to get News.</input>
+            <br><br><br>
+            <button type="submit" id="submit">Submit</button>
+ 
+        </form>
+    </div>
+</body>
+</html>

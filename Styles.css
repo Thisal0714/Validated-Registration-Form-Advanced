@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato',Arial, Helvetica, sans-serif;
+
+}
+
+#description{
+  text-align:center;
+    color:black;
+    opacity:0%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    transition: background-color 5s;
+}
+
+body:hover{
+    background-color: rgb(212, 212, 212);
+}
+
+form {
+    width: 500px;
+    height: 830px;
+    margin: 30px auto 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 2px black solid;
+    border-radius: 4px;
+    font-size: 12px;
+    background-color: black;
+    color: white;
+}
+
+
+#title {
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+form label{
+    padding-bottom: 5px;
+}
+form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 4px;
+
+    
+}
+
+form button:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+.input input {
+    border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 100%;
+}
+
+.input input:focus {
+    outline: 0;
+}
+
+.input.success input {
+    border-color: blue;
+}
+
+.input.error input {
+    border-color: #ff3860;
+}
+
+.input .error {
+    color: #ff3860;
+    font-size: 12px;
+    height: 13px;
+}
+
+.check{
+    font-size: 14px;
+}
+
+input[type="radio"]{
+    padding-left: 10px;
+    margin: 8px;
+}
+.role{
+    background-color: white;
+    color: black;
+    padding: 5.5px;
+    font-size: 13px;
+}
+select{
+    padding:9px;
+}
