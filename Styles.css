@@ -111,4 +111,5 @@ input[type="radio"]{
 }
 select{
     padding:9px;
+    border-radius:4px;
 }
